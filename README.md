@@ -1,4 +1,4 @@
-# 🚨 Simulasi Pemetaan Zona Kriminalitas (Crime Zoning) di Vancouver
+#  Simulasi Pemetaan Zona Kriminalitas (Crime Zoning) di Vancouver
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
@@ -10,7 +10,7 @@ Proyek ini merupakan simulasi data science terapan untuk melakukan **Pemetaan Zo
 
 ---
 
-## 🎯 Objektif Proyek
+##  Objektif Proyek
 1. **Analisis Pola Spasial dan Temporal**: Memahami distribusi titik-titik kejahatan di berbagai lingkungan (neighbourhoods) dan waktu kejadian (jam, hari, bulan).
 2. **Crime Clustering (Zoning)**: Mengelompokkan wilayah operasional ke dalam klaster tingkat kerawanan (Rendah, Sedang, Tinggi) menggunakan K-Means secara objektif berdasarkan kepadatan insiden.
 3. **Prediksi Zona Kriminalitas**: Membangun model klasifikasi berbasis *Extreme Gradient Boosting* (XGBoost) yang kuat untuk memprediksi probabilitas suatu insiden masuk ke zona tertentu.
@@ -18,7 +18,7 @@ Proyek ini merupakan simulasi data science terapan untuk melakukan **Pemetaan Zo
 
 ---
 
-## 📊 Alur Kerja Metodologi (Pipeline)
+##  Alur Kerja Metodologi (Pipeline)
 
 1. **Data Ingestion & Preprocessing**: Pembersihan data koordinat yang terkorupsi (invalid X,Y/Latitude,Longitude), penanganan *missing values*, dan transformasi fitur spasial (UTM ke koordinat Standar).
 2. **Exploratory Data Analysis (EDA)**: Visualisasi tingkat kepadatan dan tren kejahatan berdasarkan waktu dan jenis kejahatan.
@@ -28,7 +28,7 @@ Proyek ini merupakan simulasi data science terapan untuk melakukan **Pemetaan Zo
 
 ---
 
-## 📈 Visualisasi & Insight Analitik
+##  Visualisasi & Insight Analitik
 
 ### 1. Exploratory Data Analysis (EDA)
 Pemahaman karakteristik insiden secara mendalam berdasarkan koordinat, jam, dan kategori kejahatan.
@@ -65,7 +65,7 @@ Peta hasil akhir sebaran klaster Kriminalitas:
 
 ---
 
-## 💻 Panduan Instalasi dan Menjalankan Proyek
+##  Panduan Instalasi dan Menjalankan Proyek
 
 **Persyaratan Sistem**:
 - Python 3.8+
